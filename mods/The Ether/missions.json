@@ -1,0 +1,207 @@
+{
+   "storm_awakening_mission": {
+      "name": "Storm Awakening",
+      "description": "The skies above have grown restless. Investigate the strange storms gathering in the Ethereal Expanse by defeating 5 Storm Elementals.",
+      "type": "kill",
+      "target": "storm_elemental",
+      "target_count": 5,
+      "reward": {
+         "experience": 200,
+         "gold": 150,
+         "items": ["Storm Crystal", "Wind Essence", "Storm Elixir"]
+      },
+      "area": "ethereal_expanse",
+      "unlock_level": 5,
+      "prerequisites": []
+   },
+   "cloud_conquest_mission": {
+      "name": "Cloud Conquest",
+      "description": "The Cloud Kingdom seeks brave adventurers. Defeat 4 Cloud Wisps and 3 Sky Archers to prove your worth.",
+      "type": "kill",
+      "target": "multi",
+      "target_count": {
+         "cloud_wisp": 4,
+         "sky_archer": 3
+      },
+      "reward": {
+         "experience": 250,
+         "gold": 200,
+         "items": ["Cloudwoven Robes", "Wind Charm", "Cloud Essence"]
+      },
+      "area": "cloud_kingdom",
+      "unlock_level": 5,
+      "prerequisites": ["storm_awakening_mission"]
+   },
+   "storm_kingdom_entry": {
+      "name": "Path to the Storm Peaks",
+      "description": "The Storm Peaks call to those who would challenge the storms. Defeat 4 Thunder Beasts and 3 Wind Drakes to earn the right to climb.",
+      "type": "kill",
+      "target": "multi",
+      "target_count": {
+         "thunder_beast": 4,
+         "wind_drake": 3
+      },
+      "reward": {
+         "experience": 300,
+         "gold": 250,
+         "items": ["Stormbringer Blade", "Storm Crystal", "Celestial Feather"]
+      },
+      "area": "storm_peaks",
+      "unlock_level": 6,
+      "prerequisites": ["cloud_conquest_mission"]
+   },
+   "star_sanctuary_seeker": {
+      "name": "Seeker of Stars",
+      "description": "The Star Sanctuary holds ancient knowledge. Collect 5 Star Shards and 3 Celestial Feathers to prove your dedication to the stars.",
+      "type": "collect",
+      "target": "materials",
+      "target_count": {
+         "Star Shard": 5,
+         "Celestial Feather": 3
+      },
+      "reward": {
+         "experience": 220,
+         "gold": 180,
+         "items": ["Starfire Pendant", "Star Dust", "Star Shard"]
+      },
+      "area": "star_sanctuary",
+      "unlock_level": 5,
+      "prerequisites": ["storm_awakening_mission"]
+   },
+   "titan_slayer_mission": {
+      "name": "Titan Slayer",
+      "description": "The Thunder Titan terrorizes the Storm Peaks. Assemble a party and defeat this colossal enemy to bring peace to the mountain.",
+      "type": "kill",
+      "target": "thunder_titan",
+      "target_count": 1,
+      "reward": {
+         "experience": 600,
+         "gold": 500,
+         "items": ["Thunderstaff", "Sky Guardian Plate", "Storm Elixir", "Celestial Feather"]
+      },
+      "area": "storm_peaks",
+      "unlock_level": 8,
+      "prerequisites": ["storm_kingdom_entry", "titan_slayer_mission"]
+   },
+   "cloud_king_boss_mission": {
+      "name": "Audience with the Cloud King",
+      "description": "The Cloud King has summoned worthy heroes. Journey to the Cloud Kingdom and face this majestic but deadly ruler.",
+      "type": "kill",
+      "target": "cloud_king",
+      "target_count": 1,
+      "reward": {
+         "experience": 500,
+         "gold": 400,
+         "items": ["Cloudwoven Robes", "Cloud Pearl", "Wind Charm", "Starfire Pendant"]
+      },
+      "area": "cloud_kingdom",
+      "unlock_level": 7,
+      "prerequisites": ["cloud_conquest_mission"]
+   },
+   "void_gap_crisis": {
+      "name": "Void Gap Crisis",
+      "description": "The Void Gap has widened, threatening to consume the Ether. Brave the rift and defeat 5 Void Heralds to slow the spread.",
+      "type": "kill",
+      "target": "void_herald",
+      "target_count": 5,
+      "reward": {
+         "experience": 350,
+         "gold": 300,
+         "items": ["Star Shard", "Storm Crystal", "Cloud Essence"]
+      },
+      "area": "void_gap",
+      "unlock_level": 6,
+      "prerequisites": ["storm_kingdom_entry", "star_sanctuary_seeker"]
+   },
+   "storm_sovereign_boss_mission": {
+      "name": "Dethrone the Storm Sovereign",
+      "description": "The Storm Sovereign rules the Void Gap with terror. Gather your strongest allies and challenge this ancient being to save the Ether.",
+      "type": "kill",
+      "target": "storm_sovereign",
+      "target_count": 1,
+      "reward": {
+         "experience": 700,
+         "gold": 600,
+         "items": ["Stormbringer Blade", "Storm Eye", "Storm Crystal", "Celestial Feather", "Star Shard"]
+      },
+      "area": "void_gap",
+      "unlock_level": 9,
+      "prerequisites": ["void_gap_crisis", "titan_slayer_mission"]
+   },
+   "collect_celestial_materials": {
+      "name": "Celestial Collection",
+      "description": "Gather rare materials from across the Ether: 8 Storm Crystals, 6 Celestial Feathers, and 4 Cloud Pearls.",
+      "type": "collect",
+      "target": "materials",
+      "target_count": {
+         "Storm Crystal": 8,
+         "Celestial Feather": 6,
+         "Cloud Pearl": 4
+      },
+      "reward": {
+         "experience": 400,
+         "gold": 350,
+         "items": ["Sky Guardian Plate", "Windwhisper Bow", "Starfire Pendant"]
+      },
+      "area": "any",
+      "unlock_level": 7,
+      "prerequisites": ["storm_kingdom_entry", "star_sanctuary_seeker"]
+   },
+   "sky_master": {
+      "name": "Master of the Sky",
+      "description": "Complete all Ether content by defeating all mod bosses: Cloud King, Thunder Titan, and Storm Sovereign.",
+      "type": "kill",
+      "target": "multi",
+      "target_count": {
+         "cloud_king": 1,
+         "thunder_titan": 1,
+         "storm_sovereign": 1
+      },
+      "reward": {
+         "experience": 1000,
+         "gold": 800,
+         "items": ["Stormbringer Blade", "Thunderstaff", "Windwhisper Bow", "Sky Guardian Plate", "Cloudwoven Robes", "Celestial Angel"]
+      },
+      "area": "any",
+      "unlock_level": 10,
+      "prerequisites": ["cloud_king_boss_mission", "titan_slayer_mission", "storm_sovereign_boss_mission"]
+   },
+   "celestial_observatory_quest": {
+      "name": "Secrets of the Observatory",
+      "description": "The Celestial Observatory seeks scholars. Answer 3 celestial riddles by collecting ancient star charts hidden throughout the Ether.",
+      "type": "collect",
+      "target": "materials",
+      "target_count": {
+         "Star Shard": 10,
+         "Celestial Feather": 5
+      },
+      "reward": {
+         "experience": 280,
+         "gold": 220,
+         "items": ["Starfire Pendant", "Star Dust", "Thunderstaff"]
+      },
+      "area": "celestial_observatory",
+      "unlock_level": 6,
+      "prerequisites": ["star_sanctuary_seeker"]
+   },
+   "storm_peaks_explorer": {
+      "name": "Conquer the Storm Peaks",
+      "description": "Map the dangerous Storm Peaks by defeating 6 Storm Elementals, 4 Thunder Beasts, and 2 Storm Sentinels.",
+      "type": "kill",
+      "target": "multi",
+      "target_count": {
+         "storm_elemental": 6,
+         "thunder_beast": 4,
+         "storm_sentinel": 2
+      },
+      "reward": {
+         "experience": 400,
+         "gold": 320,
+         "items": ["Stormbringer Blade", "Storm Crystal", "Storm Elixir"]
+      },
+      "area": "storm_peaks",
+      "unlock_level": 7,
+      "prerequisites": ["storm_kingdom_entry"]
+   }
+}
+
