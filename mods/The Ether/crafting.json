@@ -1,0 +1,308 @@
+{
+   "version": "1.0",
+   "description": "Crafting recipes for The Ether mod - Sky Dimension items and equipment",
+   "categories": [
+      "Storm Weapons",
+      "Sky Armor",
+      "Accessories",
+      "Consumables",
+      "Materials",
+      "Enchantments"
+   ],
+   "recipes": {
+      "stormbringer_recipe": {
+         "name": "Stormbringer Blade",
+         "description": "A legendary blade forged from storm essence",
+         "category": "Storm Weapons",
+         "output": {
+            "Stormbringer Blade": 1
+         },
+         "materials": {
+            "Storm Crystal": 5,
+            "Celestial Feather": 3,
+            "Steel Ingot": 4,
+            "Star Shard": 2
+         },
+         "skill_requirement": 6,
+         "craft_time": 4,
+         "rarity": "epic"
+      },
+      "windwhisper_recipe": {
+         "name": "Windwhisper Bow",
+         "description": "An elegant bow crafted from cloud-wood",
+         "category": "Storm Weapons",
+         "output": {
+            "Windwhisper Bow": 1
+         },
+         "materials": {
+            "Hardwood": 5,
+            "Wind Essence": 4,
+            "Celestial Feather": 2,
+            "Cloud Pearl": 1
+         },
+         "skill_requirement": 5,
+         "craft_time": 3,
+         "rarity": "epic"
+      },
+      "thunderstaff_recipe": {
+         "name": "Thunderstaff",
+         "description": "A powerful staff channeling thunder energy",
+         "category": "Storm Weapons",
+         "output": {
+            "Thunderstaff": 1
+         },
+         "materials": {
+            "Hardwood": 4,
+            "Storm Crystal": 4,
+            "Wind Essence": 3,
+            "Star Shard": 2
+         },
+         "skill_requirement": 6,
+         "craft_time": 4,
+         "rarity": "epic"
+      },
+      "cloudwoven_robes_recipe": {
+         "name": "Cloudwoven Robes",
+         "description": "Robes woven from condensed cloud material",
+         "category": "Sky Armor",
+         "output": {
+            "Cloudwoven Robes": 1
+         },
+         "materials": {
+            "Cloud Essence": 6,
+            "Wind Essence": 3,
+            "Silk": 3,
+            "Cloud Pearl": 1
+         },
+         "skill_requirement": 5,
+         "craft_time": 3,
+         "rarity": "rare"
+      },
+      "sky_guardian_plate_recipe": {
+         "name": "Sky Guardian Plate",
+         "description": "Heavy armor forged from celestial metal",
+         "category": "Sky Armor",
+         "output": {
+            "Sky Guardian Plate": 1
+         },
+         "materials": {
+            "Steel Ingot": 6,
+            "Storm Crystal": 4,
+            "Celestial Feather": 2,
+            "Star Shard": 2
+         },
+         "skill_requirement": 6,
+         "craft_time": 4,
+         "rarity": "epic"
+      },
+      "starfire_pendant_recipe": {
+         "name": "Starfire Pendant",
+         "description": "A pendant containing celestial fire",
+         "category": "Accessories",
+         "output": {
+            "Starfire Pendant": 1
+         },
+         "materials": {
+            "Star Shard": 3,
+            "Gold Nugget": 2,
+            "Celestial Feather": 2,
+            "Storm Crystal": 1
+         },
+         "skill_requirement": 5,
+         "craft_time": 3,
+         "rarity": "rare"
+      },
+      "wind_charm_recipe": {
+         "name": "Wind Charm",
+         "description": "A charm imbued with wind essence",
+         "category": "Accessories",
+         "output": {
+            "Wind Charm": 1
+         },
+         "materials": {
+            "Wind Essence": 5,
+            "Cloud Essence": 3,
+            "Celestial Feather": 1,
+            "Crystal Shard": 2
+         },
+         "skill_requirement": 4,
+         "craft_time": 2,
+         "rarity": "rare"
+      },
+      "storm_elixir_recipe": {
+         "name": "Storm Elixir",
+         "description": "Grants the power of the storm",
+         "category": "Consumables",
+         "output": {
+            "Storm Elixir": 1
+         },
+         "materials": {
+            "Storm Crystal": 2,
+            "Wind Essence": 3,
+            "Mana Herb": 2,
+            "Cloud Essence": 1
+         },
+         "skill_requirement": 4,
+         "craft_time": 2,
+         "rarity": "rare"
+      },
+      "stardust_recipe": {
+         "name": "Star Dust",
+         "description": "Magical stardust for healing",
+         "category": "Consumables",
+         "output": {
+            "Star Dust": 1
+         },
+         "materials": {
+            "Star Shard": 2,
+            "Celestial Feather": 2,
+            "Spring Water": 1,
+            "Mana Herb": 1
+         },
+         "skill_requirement": 5,
+         "craft_time": 3,
+         "rarity": "rare"
+      },
+      "cloud_essence_extraction": {
+         "name": "Cloud Essence",
+         "description": "Extract pure cloud essence",
+         "category": "Materials",
+         "output": {
+            "Cloud Essence": 2
+         },
+         "materials": {
+            "Cloud Pearl": 1,
+            "Wind Essence": 2
+         },
+         "skill_requirement": 3,
+         "craft_time": 2,
+         "rarity": "uncommon"
+      },
+      "storm_crystal_recipe": {
+         "name": "Storm Crystal",
+         "description": "Craft storm crystal from raw energies",
+         "category": "Materials",
+         "output": {
+            "Storm Crystal": 1
+         },
+         "materials": {
+            "Storm Crystal": 2,
+            "Wind Essence": 3,
+            "Lightning Essence": 1
+         },
+         "skill_requirement": 4,
+         "craft_time": 2,
+         "rarity": "uncommon"
+      },
+      "celestial_feather_gathering": {
+         "name": "Celestial Feather",
+         "description": "Gather feathers from celestial birds",
+         "category": "Materials",
+         "output": {
+            "Celestial Feather": 1
+         },
+         "materials": {
+            "Star Shard": 2,
+            "Wind Essence": 2,
+            "Cloud Essence": 1
+         },
+         "skill_requirement": 4,
+         "craft_time": 2,
+         "rarity": "rare"
+      },
+      "storm_eye_recipe": {
+         "name": "Storm Eye",
+         "description": "Create a mystical eye for seeing through storms",
+         "category": "Accessories",
+         "output": {
+            "Storm Eye": 1
+         },
+         "materials": {
+            "Storm Crystal": 3,
+            "Star Shard": 2,
+            "Celestial Feather": 1,
+            "Crystal Shard": 3
+         },
+         "skill_requirement": 5,
+         "craft_time": 3,
+         "rarity": "rare"
+      },
+      "cloud_essence_potion": {
+         "name": "Cloud Essence",
+         "description": "Condensed cloud energy in potion form",
+         "category": "Consumables",
+         "output": {
+            "Cloud Essence": 1
+         },
+         "materials": {
+            "Cloud Pearl": 1,
+            "Wind Essence": 2,
+            "Spring Water": 1
+         },
+         "skill_requirement": 3,
+         "craft_time": 2,
+         "rarity": "uncommon"
+      },
+      "thunder_charge_scroll": {
+         "name": "Thunder Charge Scroll",
+         "description": "A scroll that grants thunder charge ability",
+         "category": "Enchantments",
+         "output": {
+            "Storm Elixir": 1
+         },
+         "materials": {
+            "Storm Crystal": 3,
+            "Celestial Feather": 2,
+            "Mana Herb": 3,
+            "Ancient Scroll": 1
+         },
+         "skill_requirement": 6,
+         "craft_time": 4,
+         "rarity": "epic"
+      },
+      "wind_whisper_enchant": {
+         "name": "Wind Whisper Enchant",
+         "description": "Enchant a weapon with wind whispers",
+         "category": "Enchantments",
+         "output": {
+            "Windwhisper Bow": 1
+         },
+         "materials": {
+            "Wind Essence": 5,
+            "Celestial Feather": 3,
+            "Crystal Shard": 2,
+            "Ancient Scroll": 1
+         },
+         "skill_requirement": 5,
+         "craft_time": 3,
+         "rarity": "epic"
+      },
+      "starfall_recipe": {
+         "name": "Starfall Enchant",
+         "description": "Enchant a weapon to call down stars",
+         "category": "Enchantments",
+         "output": {
+            "Thunderstaff": 1
+         },
+         "materials": {
+            "Star Shard": 4,
+            "Storm Crystal": 3,
+            "Celestial Feather": 2,
+            "Ancient Scroll": 1
+         },
+         "skill_requirement": 6,
+         "craft_time": 4,
+         "rarity": "epic"
+      }
+   },
+   "material_categories": {
+      "ores": ["Iron Ore", "Coal", "Steel Ingot", "Gold Nugget"],
+      "herbs": ["Herb", "Mana Herb", "Spring Water", "Wind Flower"],
+      "crystals": ["Storm Crystal", "Star Shard", "Cloud Pearl", "Crystal Shard"],
+      "magical": ["Celestial Feather", "Wind Essence", "Lightning Essence", "Ancient Scroll"],
+      "leather": ["Leather", "Leather Strip", "Cloud Silk"],
+      "wood": ["Hardwood", "Cloud Wood", "Storm Branch"],
+      "mod_special": ["Cloud Essence", "Wind Essence", "Storm Crystal", "Celestial Feather", "Star Shard"]
+   }
+}
+
