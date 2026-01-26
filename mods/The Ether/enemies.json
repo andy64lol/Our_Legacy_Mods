@@ -1,0 +1,103 @@
+{
+   "storm_elemental": {
+      "name": "Storm Elemental",
+      "hp": 100,
+      "attack": 25,
+      "defense": 12,
+      "speed": 18,
+      "experience_reward": 90,
+      "gold_reward": 55,
+      "loot_table": ["Storm Crystal", "Wind Essence", "Cloud Essence"]
+   },
+   "cloud_wisp": {
+      "name": "Cloud Wisp",
+      "hp": 60,
+      "attack": 18,
+      "defense": 5,
+      "speed": 22,
+      "experience_reward": 50,
+      "gold_reward": 30,
+      "loot_table": ["Cloud Essence", "Wind Essence", "Cloud Pearl"]
+   },
+   "sky_archer": {
+      "name": "Sky Archer",
+      "hp": 85,
+      "attack": 28,
+      "defense": 10,
+      "speed": 16,
+      "experience_reward": 75,
+      "gold_reward": 45,
+      "loot_table": ["Celestial Feather", "Windwhisper Bow", "Star Dust"]
+   },
+   "thunder_beast": {
+      "name": "Thunder Beast",
+      "hp": 120,
+      "attack": 32,
+      "defense": 15,
+      "speed": 14,
+      "experience_reward": 110,
+      "gold_reward": 65,
+      "loot_table": ["Storm Crystal", "Storm Elixir", "Thunderstaff"]
+   },
+   "wind_drake": {
+      "name": "Wind Drake",
+      "hp": 140,
+      "attack": 30,
+      "defense": 18,
+      "speed": 20,
+      "experience_reward": 140,
+      "gold_reward": 85,
+      "loot_table": ["Celestial Feather", "Wind Essence", "Cloud Pearl", "Star Shard"]
+   },
+   "star_sprite": {
+      "name": "Star Sprite",
+      "hp": 50,
+      "attack": 22,
+      "defense": 4,
+      "speed": 25,
+      "experience_reward": 60,
+      "gold_reward": 35,
+      "loot_table": ["Star Dust", "Star Shard", "Celestial Feather"]
+   },
+   "cloud_giant": {
+      "name": "Cloud Giant",
+      "hp": 180,
+      "attack": 28,
+      "defense": 22,
+      "speed": 8,
+      "experience_reward": 130,
+      "gold_reward": 90,
+      "loot_table": ["Cloud Essence", "Cloud Pearl", "Sky Guardian Plate"]
+   },
+   "storm_sentinel": {
+      "name": "Storm Sentinel",
+      "hp": 160,
+      "attack": 35,
+      "defense": 20,
+      "speed": 12,
+      "experience_reward": 150,
+      "gold_reward": 100,
+      "loot_table": ["Stormbringer Blade", "Storm Crystal", "Wind Essence"]
+   },
+   "lightning_harpy": {
+      "name": "Lightning Harpy",
+      "hp": 75,
+      "attack": 24,
+      "defense": 8,
+      "speed": 24,
+      "experience_reward": 85,
+      "gold_reward": 50,
+      "loot_table": ["Celestial Feather", "Storm Crystal", "Wind Essence"]
+   },
+   "void_herald": {
+      "name": "Void Herald",
+      "hp": 95,
+      "attack": 26,
+      "defense": 10,
+      "speed": 19,
+      "experience_reward": 95,
+      "gold_reward": 60,
+      "loot_table": ["Star Shard", "Cloud Essence", "Storm Elixir"]
+   }
+}
+
