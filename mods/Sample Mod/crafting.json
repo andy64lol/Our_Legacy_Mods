@@ -1,0 +1,360 @@
+{
+   "version": "1.0",
+   "description": "Alchemy and crafting recipes for the Sample Mod",
+   "categories": [
+      "Potions",
+      "Elixirs",
+      "Enchantments",
+      "Utility",
+      "Consumables",
+      "Crystal Crafting",
+      "Phoenix Arts",
+      "Shadow Forging"
+   ],
+   "recipes": {
+      "crystal_sword_recipe": {
+         "name": "Crystal Sword",
+         "description": "A sword forged from pure crystal, shining with magical energy",
+         "category": "Crystal Crafting",
+         "output": {
+            "Crystal Sword": 1
+         },
+         "materials": {
+            "Moonstone": 5,
+            "Crystal Shard": 3,
+            "Steel Ingot": 2
+         },
+         "skill_requirement": 4,
+         "craft_time": 3,
+         "rarity": "rare"
+      },
+      "phoenix_shield_recipe": {
+         "name": "Phoenix Shield",
+         "description": "A shield imbued with the fire of the legendary phoenix",
+         "category": "Phoenix Arts",
+         "output": {
+            "Phoenix Shield": 1
+         },
+         "materials": {
+            "Fire Gem": 3,
+            "Phoenix Feather": 2,
+            "Steel Ingot": 3,
+            "Moonstone": 2
+         },
+         "skill_requirement": 5,
+         "craft_time": 4,
+         "rarity": "rare"
+      },
+      "elven_bow_recipe": {
+         "name": "Elven Bow",
+         "description": "An elegant bow crafted by elven masters, imbued with natural magic",
+         "category": "Enchantments",
+         "output": {
+            "Elven Bow": 1
+         },
+         "materials": {
+            "Hardwood": 4,
+            "Moonstone": 3,
+            "Steel Ingot": 1,
+            "Crystal Shard": 2
+         },
+         "skill_requirement": 4,
+         "craft_time": 3,
+         "rarity": "rare"
+      },
+      "shadow_dagger_recipe": {
+         "name": "Shadow Dagger",
+         "description": "A dagger that blends with shadows, favored by assassins",
+         "category": "Shadow Forging",
+         "output": {
+            "Shadow Dagger": 1
+         },
+         "materials": {
+            "Steel Ingot": 2,
+            "Void Crystal": 2,
+            "Shadow Essence": 3,
+            "Moonstone": 1
+         },
+         "skill_requirement": 5,
+         "craft_time": 3,
+         "rarity": "rare"
+      },
+      "sages_robes_recipe": {
+         "name": "Sage's Robes",
+         "description": "Robes worn by wise mages, enhancing magical abilities",
+         "category": "Crystal Crafting",
+         "output": {
+            "Sage's Robes": 1
+         },
+         "materials": {
+            "Moonstone": 4,
+            "Crystal Shard": 3,
+            "Silk": 2,
+            "Mana Herb": 2
+         },
+         "skill_requirement": 4,
+         "craft_time": 3,
+         "rarity": "uncommon"
+      },
+      "heros_charm_recipe": {
+         "name": "Hero's Charm",
+         "description": "A charm that inspires bravery and strength",
+         "category": "Utility",
+         "output": {
+            "Hero's Charm": 1
+         },
+         "materials": {
+            "Moonstone": 3,
+            "Gold Nugget": 2,
+            "Crystal Shard": 2,
+            "Ancient Relic": 1
+         },
+         "skill_requirement": 5,
+         "craft_time": 3,
+         "rarity": "rare"
+      },
+      "elixir_of_strength_recipe": {
+         "name": "Elixir of Strength",
+         "description": "Grants a significant boost to attack power",
+         "category": "Elixirs",
+         "output": {
+            "Elixir of Strength": 1
+         },
+         "materials": {
+            "Orc Tooth": 2,
+            "Troll Hide": 1,
+            "Moonstone": 2,
+            "Fire Gem": 1
+         },
+         "skill_requirement": 4,
+         "craft_time": 2,
+         "rarity": "rare"
+      },
+      "moonstone_extraction": {
+         "name": "Moonstone",
+         "description": "Extract moonstone from crystalline essence",
+         "category": "Utility",
+         "output": {
+            "Moonstone": 2
+         },
+         "materials": {
+            "Crystal Shard": 3,
+            "Moonlight Essence": 2
+         },
+         "skill_requirement": 3,
+         "craft_time": 2,
+         "rarity": "uncommon"
+      },
+      "crystal_healing_potion": {
+         "name": "Crystal Healing Potion",
+         "description": "A potent healing potion infused with crystal energy",
+         "category": "Potions",
+         "output": {
+            "Large Health Potion": 1
+         },
+         "materials": {
+            "Health Potion": 1,
+            "Moonstone": 2,
+            "Crystal Shard": 1
+         },
+         "skill_requirement": 3,
+         "craft_time": 2,
+         "rarity": "uncommon"
+      },
+      "phoenix_flame_elixir": {
+         "name": "Phoenix Flame Elixir",
+         "description": "Grants fire-based attacks for a short time",
+         "category": "Elixirs",
+         "output": {
+            "Elixir of Strength": 1
+         },
+         "materials": {
+            "Phoenix Feather": 2,
+            "Fire Gem": 2,
+            "Moonstone": 1
+         },
+         "skill_requirement": 5,
+         "craft_time": 3,
+         "rarity": "rare"
+      },
+      "shadow_infusion": {
+         "name": "Shadow Infusion",
+         "description": "Infuse a weapon with shadow energy",
+         "category": "Shadow Forging",
+         "output": {
+            "Shadow Dagger": 1
+         },
+         "materials": {
+            "Steel Dagger": 1,
+            "Shadow Essence": 4,
+            "Void Crystal": 2,
+            "Moonstone": 1
+         },
+         "skill_requirement": 6,
+         "craft_time": 4,
+         "rarity": "epic"
+      },
+      "crystal_armor_reinforcement": {
+         "name": "Crystal Armor Reinforcement",
+         "description": "Reinforce armor with crystal for increased defense",
+         "category": "Crystal Crafting",
+         "output": {
+            "Phoenix Shield": 1
+         },
+         "materials": {
+            "Stone Shield": 1,
+            "Moonstone": 4,
+            "Crystal Shard": 3,
+            "Steel Ingot": 2
+         },
+         "skill_requirement": 5,
+         "craft_time": 4,
+         "rarity": "rare"
+      },
+      "elven_arrows": {
+         "name": "Elven Arrows",
+         "description": "Arrows blessed by elven magic",
+         "category": "Enchantments",
+         "output": {
+            "Elven Bow": 1
+         },
+         "materials": {
+            "Hunting Arrow": 10,
+            "Moonstone": 2,
+            "Crystal Shard": 1,
+            "Hardwood": 3
+         },
+         "skill_requirement": 3,
+         "craft_time": 2,
+         "rarity": "uncommon"
+      },
+      "void_crystal_potion": {
+         "name": "Void Crystal Potion",
+         "description": "A potion that enhances magical void abilities",
+         "category": "Potions",
+         "output": {
+            "Mana Potion": 2
+         },
+         "materials": {
+            "Mana Potion": 1,
+            "Void Crystal": 2,
+            "Shadow Essence": 2,
+            "Moonstone": 1
+         },
+         "skill_requirement": 5,
+         "craft_time": 3,
+         "rarity": "rare"
+      },
+      "phoenix_rebirth_scroll": {
+         "name": "Phoenix Rebirth Scroll",
+         "description": "A scroll that grants temporary resurrection",
+         "category": "Phoenix Arts",
+         "output": {
+            "Phoenix Tears": 1
+         },
+         "materials": {
+            "Phoenix Feather": 3,
+            "Moonstone": 5,
+            "Crystal Shard": 4,
+            "Eternal Essence": 1
+         },
+         "skill_requirement": 7,
+         "craft_time": 5,
+         "rarity": "legendary"
+      },
+      "crystal_weapon_set": {
+         "name": "Crystal Weapon Set",
+         "description": "A complete set of crystal weapons for a party",
+         "category": "Crystal Crafting",
+         "output": {
+            "Crystal Sword": 1,
+            "Moonstone": 3
+         },
+         "materials": {
+            "Crystal Sword": 1,
+            "Moonstone": 8,
+            "Crystal Shard": 6,
+            "Steel Ingot": 4
+         },
+         "skill_requirement": 6,
+         "craft_time": 5,
+         "rarity": "epic"
+      },
+      "shadow_cloak_recipe": {
+         "name": "Shadow Cloak",
+         "description": "A cloak woven from shadow and moonlight",
+         "category": "Shadow Forging",
+         "output": {
+            "Shadow Cloak": 1
+         },
+         "materials": {
+            "Leather": 4,
+            "Shadow Essence": 3,
+            "Moonstone": 2,
+            "Void Crystal": 1
+         },
+         "skill_requirement": 5,
+         "craft_time": 3,
+         "rarity": "rare"
+      },
+      "crystal_essence_extraction": {
+         "name": "Crystal Essence",
+         "description": "Extract pure crystal essence for crafting",
+         "category": "Utility",
+         "output": {
+            "Crystal Shard": 3
+         },
+         "materials": {
+            "Moonstone": 2,
+            "Crystal Shard": 4
+         },
+         "skill_requirement": 2,
+         "craft_time": 1,
+         "rarity": "common"
+      },
+      "phoenix_feather_extraction": {
+         "name": "Phoenix Feather",
+         "description": "Gather phoenix feathers for powerful crafting",
+         "category": "Phoenix Arts",
+         "output": {
+            "Phoenix Feather": 1
+         },
+         "materials": {
+            "Fire Gem": 2,
+            "Moonstone": 2,
+            "Eternal Essence": 1
+         },
+         "skill_requirement": 5,
+         "craft_time": 3,
+         "rarity": "rare"
+      },
+      "void_essence_mixing": {
+         "name": "Void Essence Mixing",
+         "description": "Mix void energies for shadow crafting",
+         "category": "Shadow Forging",
+         "output": {
+            "Void Crystal": 1
+         },
+         "materials": {
+            "Shadow Essence": 3,
+            "Void Crystal": 1,
+            "Soul Fragment": 1,
+            "Moonstone": 1
+         },
+         "skill_requirement": 5,
+         "craft_time": 3,
+         "rarity": "rare"
+      }
+   },
+   "material_categories": {
+      "ores": ["Iron Ore", "Coal", "Steel Ingot", "Gold Nugget"],
+      "herbs": ["Herb", "Mana Herb", "Spring Water"],
+      "crystals": ["Crystal Shard", "Dark Crystal", "Ice Crystal", "Void Crystal", "Fire Gem", "Moonstone"],
+      "monster_parts": ["Goblin Ear", "Orc Tooth", "Bone Fragment", "Wolf Fang", "Venom Sac", "Serpent Tail", "Swamp Scale", "Troll Hide"],
+      "magical": ["Phoenix Feather", "Dragon Scale", "Ancient Relic", "Eternal Essence", "Soul Fragment", "Shadow Essence", "Fire Essence", "Ice Essence", "Moonlight Essence"],
+      "leather": ["Leather", "Leather Strip", "Silk"],
+      "wood": ["Hardwood", "Stone Block"],
+      "mod_special": ["Moonstone", "Void Crystal", "Phoenix Feather", "Shadow Essence"]
+   }
+}
+
