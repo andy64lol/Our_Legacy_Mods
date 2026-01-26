@@ -1,0 +1,98 @@
+{
+   "Crystal Knight": {
+      "description": "A warrior who channels crystal energy to enhance attacks and defense",
+      "base_stats": {
+         "hp": 130,
+         "mp": 40,
+         "attack": 18,
+         "defense": 14,
+         "speed": 9
+      },
+      "level_up_bonuses": {
+         "hp": 22,
+         "mp": 4,
+         "attack": 4,
+         "defense": 3,
+         "speed": 1
+      },
+      "starting_items": ["Crystal Sword", "Leather Armor", "Health Potion", "Moonstone"],
+      "starting_gold": 120
+   },
+   "Phoenix Sorcerer": {
+      "description": "A mage wielding the eternal flames of the phoenix",
+      "base_stats": {
+         "hp": 85,
+         "mp": 90,
+         "attack": 12,
+         "defense": 7,
+         "speed": 11
+      },
+      "level_up_bonuses": {
+         "hp": 16,
+         "mp": 18,
+         "attack": 3,
+         "defense": 1,
+         "speed": 2
+      },
+      "starting_items": ["Phoenix Shield", "Silken Robes", "Fire Gem", "Elixir of Strength"],
+      "starting_gold": 120
+   },
+   "Shadowblade": {
+      "description": "An assassin who merges with shadows for deadly strikes",
+      "base_stats": {
+         "hp": 95,
+         "mp": 45,
+         "attack": 15,
+         "defense": 9,
+         "speed": 18
+      },
+      "level_up_bonuses": {
+         "hp": 16,
+         "mp": 4,
+         "attack": 3,
+         "defense": 1,
+         "speed": 3
+      },
+      "starting_items": ["Shadow Dagger", "Shadow Cloak", "Health Potion", "Void Crystal"],
+      "starting_gold": 120
+   },
+   "Elven Ranger": {
+      "description": "A master archer from the ancient elven glades",
+      "base_stats": {
+         "hp": 105,
+         "mp": 55,
+         "attack": 16,
+         "defense": 11,
+         "speed": 14
+      },
+      "level_up_bonuses": {
+         "hp": 18,
+         "mp": 6,
+         "attack": 3,
+         "defense": 2,
+         "speed": 2
+      },
+      "starting_items": ["Elven Bow", "Bard's Tunic", "Moonstone", "Large Health Potion"],
+      "starting_gold": 120
+   },
+   "Void Walker": {
+      "description": "A mysterious traveler from beyond the void",
+      "base_stats": {
+         "hp": 75,
+         "mp": 100,
+         "attack": 10,
+         "defense": 6,
+         "speed": 12
+      },
+      "level_up_bonuses": {
+         "hp": 14,
+         "mp": 20,
+         "attack": 2,
+         "defense": 1,
+         "speed": 2
+      },
+      "starting_items": ["Moonstone", "Sage's Robes", "Void Crystal", "Mana Potion"],
+      "starting_gold": 150
+   }
+}
+
