@@ -1,0 +1,214 @@
+{
+   "cloud_spirit": {
+      "name": "Cloud Spirit",
+      "class": "Support",
+      "rank": "rare",
+      "description": "A friendly spirit made of soft cloud, providing comfort and protection to allies. It drifts lazily but acts decisively in battle.",
+      "defense_bonus": 8,
+      "hp_bonus": 40,
+      "evasion_bonus": 10,
+      "action_chance": 0.6,
+      "abilities": [
+         {
+            "name": "Soft Landing",
+            "type": "damage_reduction",
+            "damage_reduction": 0.2,
+            "chance": 30,
+            "duration": 2
+         },
+         {
+            "name": "Cloud Comfort",
+            "type": "heal",
+            "healing": 35,
+            "chance": 50
+         }
+      ],
+      "price": 200
+   },
+   "storm_herald": {
+      "name": "Storm Herald",
+      "class": "Mage",
+      "rank": "epic",
+      "description": "A herald of the storm realm, crackling with electricity. It amplifies lightning abilities and provides offensive support.",
+      "attack_bonus": 12,
+      "lightning_bonus": 20,
+      "mp_bonus": 30,
+      "action_chance": 0.75,
+      "abilities": [
+         {
+            "name": "Lightning Surge",
+            "type": "attack_boost",
+            "attack_bonus": 10,
+            "duration": 3
+         },
+         {
+            "name": "Thunder Blessing",
+            "type": "spell_power",
+            "spell_power_bonus": 15,
+            "duration": 3
+         }
+      ],
+      "price": 350
+   },
+   "star_guide": {
+      "name": "Star Guide",
+      "class": "Support",
+      "rank": "epic",
+      "description": "A celestial being that guides lost travelers through the sky. It provides wisdom, accuracy, and critical bonuses.",
+      "attack_bonus": 8,
+      "accuracy_bonus": 15,
+      "critical_chance": 10,
+      "action_chance": 0.7,
+      "abilities": [
+         {
+            "name": "Starlight",
+            "type": "buff",
+            "attack_bonus": 6,
+            "defense_bonus": 4,
+            "duration": 4
+         },
+         {
+            "name": "Celestial Guidance",
+            "type": "accuracy_boost",
+            "accuracy_bonus": 20,
+            "critical_chance_bonus": 0.08,
+            "duration": 5
+         }
+      ],
+      "price": 320
+   },
+   "wind_sprite": {
+      "name": "Wind Sprite",
+      "class": "Assassin",
+      "rank": "rare",
+      "description": "A mischievous sprite that dances on the wind. It increases speed and provides opportunities for surprise attacks.",
+      "attack_bonus": 6,
+      "speed_bonus": 12,
+      "evasion_bonus": 15,
+      "action_chance": 0.8,
+      "abilities": [
+         {
+            "name": "Swift Strike",
+            "type": "attack_boost",
+            "attack_bonus": 8,
+            "speed_bonus": 5,
+            "duration": 2
+         },
+         {
+            "name": "Wind Dance",
+            "type": "evasion_boost",
+            "evasion_bonus": 20,
+            "duration": 3
+         }
+      ],
+      "price": 220
+   },
+   "thunder_guardian": {
+      "name": "Thunder Guardian",
+      "class": "Guardian",
+      "rank": "legendary",
+      "description": "A powerful guardian bound to the storms of the Ether. It provides immense protection and devastating counter-attacks.",
+      "defense_bonus": 15,
+      "hp_bonus": 60,
+      "attack_bonus": 10,
+      "action_chance": 0.7,
+      "abilities": [
+         {
+            "name": "Storm Shield",
+            "type": "damage_absorb",
+            "absorb_amount": 50,
+            "duration": 3
+         },
+         {
+            "name": "Thunder Judgment",
+            "type": "attack",
+            "damage": 45,
+            "chance": 40
+         }
+      ],
+      "price": 500
+   },
+   "celestial_angel": {
+      "name": "Celestial Angel",
+      "class": "Healer",
+      "rank": "legendary",
+      "description": "A divine being from the highest reaches of the Ether. It provides extraordinary healing and resurrection capabilities.",
+      "healing_bonus": 80,
+      "hp_bonus": 35,
+      "mp_bonus": 40,
+      "action_chance": 0.8,
+      "abilities": [
+         {
+            "name": "Divine Light",
+            "type": "heal",
+            "healing": 60,
+            "chance": 75
+         },
+         {
+            "name": "Angel's Grace",
+            "type": "resurrection",
+            "description": "Revive a fallen ally with partial health",
+            "chance": 30
+         },
+         {
+            "name": "Celestial Blessing",
+            "type": "buff",
+            "attack_bonus": 8,
+            "defense_bonus": 8,
+            "duration": 5
+         }
+      ],
+      "price": 600
+   },
+   "void_messenger": {
+      "name": "Void Messenger",
+      "class": "Warlock",
+      "rank": "epic",
+      "description": "A mysterious being from the Void Gap that carries messages between realms. It provides dark magic amplification.",
+      "mp_bonus": 50,
+      "spell_power_bonus": 18,
+      "attack_bonus": 6,
+      "action_chance": 0.75,
+      "abilities": [
+         {
+            "name": "Void Touch",
+            "type": "attack_boost",
+            "attack_bonus": 12,
+            "duration": 3
+         },
+         {
+            "name": "Dark Insight",
+            "type": "spell_power",
+            "spell_power_bonus": 20,
+            "duration": 4
+         }
+      ],
+      "price": 380
+   },
+   "rainbow_archer": {
+      "name": "Rainbow Archer",
+      "class": "Ranger",
+      "rank": "rare",
+      "description": "A skilled archer blessed by the colors of the sky. It provides ranged attack bonuses and elemental effects.",
+      "attack_bonus": 10,
+      "speed_bonus": 6,
+      "critical_chance": 8,
+      "action_chance": 0.7,
+      "abilities": [
+         {
+            "name": "Rainbow Shot",
+            "type": "attack_boost",
+            "attack_bonus": 8,
+            "duration": 3
+         },
+         {
+            "name": "Prismatic Arrow",
+            "type": "elemental_boost",
+            "elemental_bonus": 12,
+            "duration": 3
+         }
+      ],
+      "price": 250
+   }
+}
+
