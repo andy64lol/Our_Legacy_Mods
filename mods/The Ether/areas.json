@@ -1,0 +1,82 @@
+{
+   "cloud_kingdom": {
+      "name": "The Cloud Kingdom",
+      "description": "A magnificent realm of floating islands connected by bridges of condensed cloud. The Cloud Kingdom is ruled by the Cloud King and is home to the most powerful sky dwellers.",
+      "possible_enemies": ["cloud_wisp", "sky_archer", "cloud_giant", "lightning_harpy"],
+      "possible_bosses": ["cloud_king"],
+      "shops": ["cloud_merchant", "storm_shrine"],
+      "missions_available": true,
+      "connections": ["storm_peaks", "star_sanctuary"],
+      "difficulty": 5,
+      "rest_cost": 25,
+      "can_rest": true,
+      "special_features": ["cloud_bridges", "sky_lifts", "storm_chimes"]
+   },
+   "storm_peaks": {
+      "name": "The Storm Peaks",
+      "description": "Towering mountain peaks where eternal storms rage. Only the bravest warriors dare to climb these dangerous heights where lightning strikes continuously.",
+      "possible_enemies": ["storm_elemental", "thunder_beast", "storm_sentinel", "wind_drake"],
+      "possible_bosses": ["thunder_titan"],
+      "shops": ["thunder_forge", "storm_healer"],
+      "missions_available": true,
+      "connections": ["cloud_kingdom", "void_gap"],
+      "difficulty": 6,
+      "rest_cost": 30,
+      "can_rest": true,
+      "special_features": ["lightning_strikes", "wind_tunnels", "thunder_caverns"]
+   },
+   "star_sanctuary": {
+      "name": "The Star Sanctuary",
+      "description": "A sacred realm where the sky meets the stars. This peaceful sanctuary is home to celestial beings and contains ancient knowledge from the stars themselves.",
+      "possible_enemies": ["star_sprite", "void_herald", "lightning_harpy"],
+      "possible_bosses": [],
+      "shops": ["celestial_library", "star_temple"],
+      "missions_available": true,
+      "connections": ["cloud_kingdom", "void_gap"],
+      "difficulty": 4,
+      "rest_cost": 22,
+      "can_rest": true,
+      "special_features": ["star_gardens", "nebula_pools", "cosmic_altar"]
+   },
+   "void_gap": {
+      "name": "The Void Gap",
+      "description": "A dangerous rift in the sky where the boundary between realms weakens. Dark energies seep through, creating twisted versions of sky creatures.",
+      "possible_enemies": ["void_herald", "storm_sentinel", "thunder_beast", "wind_drake"],
+      "possible_bosses": ["storm_sovereign"],
+      "shops": [],
+      "missions_available": true,
+      "connections": ["storm_peaks", "star_sanctuary"],
+      "difficulty": 7,
+      "rest_cost": 35,
+      "can_rest": false,
+      "special_features": ["void_rifts", "dark_storms", "reality_cracks"],
+      "boss_area": true
+   },
+   "ethereal_expanse": {
+      "name": "The Ethereal Expanse",
+      "description": "The vast endless sky that connects all realms of the Ether. Here, the laws of physics bend and the horizon stretches into infinity.",
+      "possible_enemies": ["cloud_wisp", "star_sprite", "storm_elemental"],
+      "possible_bosses": [],
+      "shops": [],
+      "missions_available": true,
+      "connections": ["cloud_kingdom", "storm_peaks", "star_sanctuary", "void_gap"],
+      "difficulty": 3,
+      "rest_cost": 18,
+      "can_rest": true,
+      "special_features": ["floating_islands", "rainbow_bridges", "sky_villages"]
+   },
+   "celestial_observatory": {
+      "name": "The Celestial Observatory",
+      "description": "An ancient structure built atop the highest cloud island, used to study the movements of stars and predict the weather of the Ether.",
+      "possible_enemies": ["star_sprite", "void_herald"],
+      "possible_bosses": [],
+      "shops": ["star_gazer", "sky_scrolls"],
+      "missions_available": true,
+      "connections": ["star_sanctuary"],
+      "difficulty": 4,
+      "rest_cost": 20,
+      "can_rest": true,
+      "special_features": ["telescopes", "star_charts", "sky_maps"]
+   }
+}
+
