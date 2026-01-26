@@ -1,0 +1,53 @@
+{
+   "hell_knight": {
+      "name": "Hell Knight",
+      "hp": 120,
+      "attack": 28,
+      "defense": 18,
+      "speed": 10,
+      "experience_reward": 120,
+      "gold_reward": 70,
+      "loot_table": ["Crystal Sword", "Moonstone", "Hero's Charm"]
+   },
+   "fire_spirit": {
+      "name": "Fire Spirit",
+      "hp": 60,
+      "attack": 20,
+      "defense": 5,
+      "speed": 15,
+      "experience_reward": 50,
+      "gold_reward": 25,
+      "loot_table": ["Fire Gem", "Phoenix Shield", "Elixir of Strength"]
+   },
+   "ancient_spirit": {
+      "name": "Ancient Spirit",
+      "hp": 80,
+      "attack": 22,
+      "defense": 8,
+      "speed": 14,
+      "experience_reward": 70,
+      "gold_reward": 40,
+      "loot_table": ["Moonstone", "Sage's Robes", "Mana Potion"]
+   },
+   "shadow_assassin": {
+      "name": "Shadow Assassin",
+      "hp": 75,
+      "attack": 25,
+      "defense": 10,
+      "speed": 22,
+      "experience_reward": 85,
+      "gold_reward": 55,
+      "loot_table": ["Shadow Dagger", "Moonstone", "Health Potion"]
+   },
+   "forest_hunter": {
+      "name": "Forest Hunter",
+      "hp": 70,
+      "attack": 20,
+      "defense": 12,
+      "speed": 16,
+      "experience_reward": 65,
+      "gold_reward": 45,
+      "loot_table": ["Elven Bow", "Moonstone", "Large Health Potion"]
+   }
+}
+
