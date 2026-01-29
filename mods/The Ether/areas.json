@@ -1,0 +1,76 @@
+{
+  "ethereal_spire": {
+    "name": "Ethereal Spire",
+    "description": "A mystical tower suspended between worlds, where the fabric of reality is thin and magic flows freely.",
+    "possible_enemies": ["ethereal_wisp", "phase_guardian", "reality_ghost"],
+    "possible_bosses": ["ethereal_guardian"],
+    "shops": ["ethereal_merchant"],
+    "missions_available": true,
+    "connections": ["astral_plane", "mana_vortex"],
+    "difficulty": 4,
+    "rest_cost": 20,
+    "can_rest": true
+  },
+  "astral_plane": {
+    "name": "Astral Plane",
+    "description": "A dimension of pure magical energy where matter and spirit intertwine. Reality seems to shift at every turn.",
+    "possible_enemies": ["astral_phantom", "energy_elemental", "cosmic_entity"],
+    "possible_bosses": ["astral_sovereign"],
+    "shops": ["astral_guide"],
+    "missions_available": true,
+    "connections": ["ethereal_spire", "void_nexus"],
+    "difficulty": 5,
+    "rest_cost": 25,
+    "can_rest": true
+  },
+  "mana_vortex": {
+    "name": "Mana Vortex",
+    "description": "A swirling tempest of raw magical energy. Spells misfire, reality bends, and mana crystallizes in strange formations.",
+    "possible_enemies": ["mana_sprite", "spell_wraith", "crystal_golem"],
+    "possible_bosses": ["mana_lord"],
+    "shops": ["mana_exchange"],
+    "missions_available": true,
+    "connections": ["ethereal_spire", "celestial_observatory"],
+    "difficulty": 4,
+    "rest_cost": 22,
+    "can_rest": true
+  },
+  "void_nexus": {
+    "name": "Void Nexus",
+    "description": "A convergence point between existence and non-existence. Ancient entities drift through the void, watching.",
+    "possible_enemies": ["void_creature", "null_wraith", "abyss_horror"],
+    "possible_bosses": ["void_archon"],
+    "shops": [],
+    "missions_available": true,
+    "connections": ["astral_plane", "arcane_rift"],
+    "difficulty": 5,
+    "rest_cost": 30,
+    "can_rest": false,
+    "boss_area": true
+  },
+  "celestial_observatory": {
+    "name": "Celestial Observatory",
+    "description": "An ancient structure floating among the stars where astronomers once channeled cosmic magic.",
+    "possible_enemies": ["star_sprite", "void_herald", "celestial_guardian"],
+    "possible_bosses": ["star_sentinel"],
+    "shops": ["celestial_library", "star_temple"],
+    "missions_available": true,
+    "connections": ["mana_vortex", "arcane_rift"],
+    "difficulty": 3,
+    "rest_cost": 18,
+    "can_rest": true
+  },
+  "arcane_rift": {
+    "name": "Arcane Rift",
+    "description": "A tear in the fabric of magic itself. Spellcraft runs wild here, creating unpredictable phenomena.",
+    "possible_enemies": ["rift_wraith", "chaotic_mage", "spell_anomaly"],
+    "possible_bosses": ["rift_weaver"],
+    "shops": ["rift_trader"],
+    "missions_available": true,
+    "connections": ["celestial_observatory", "void_nexus"],
+    "difficulty": 4,
+    "rest_cost": 23,
+    "can_rest": true
+  }
+}
+
