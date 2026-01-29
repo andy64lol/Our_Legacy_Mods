@@ -1,0 +1,334 @@
+{
+  "dungeons": [
+    {
+      "id": "ethereal_spire",
+      "name": "Ethereal Spire",
+      "description": "A mystical tower suspended between worlds, where the fabric of reality is thin and magic flows freely.",
+      "difficulty": [4, 5],
+      "rooms": 8,
+      "boss_id": "ethereal_guardian",
+      "completion_reward": {
+        "gold": 1000,
+        "experience": 1800,
+        "items": ["Ethereal Crown", "Essence of the Void", "Spire Key"]
+      },
+      "room_weights": {
+        "question": 35,
+        "battle": 25,
+        "chest": 15,
+        "trap_chest": 10,
+        "multi_choice": 10,
+        "empty": 5
+      }
+    },
+    {
+      "id": "astral_plane",
+      "name": "Astral Plane",
+      "description": "A dimension of pure magical energy where matter and spirit intertwine. Reality seems to shift at every turn.",
+      "difficulty": [5, 6],
+      "rooms": 9,
+      "boss_id": "astral_sovereign",
+      "completion_reward": {
+        "gold": 1500,
+        "experience": 2500,
+        "items": ["Astral Scepter", "Dimensional Rift Gem", "Star Fragment"]
+      },
+      "room_weights": {
+        "question": 30,
+        "battle": 30,
+        "chest": 10,
+        "trap_chest": 15,
+        "multi_choice": 10,
+        "empty": 5
+      }
+    },
+    {
+      "id": "mana_vortex",
+      "name": "Mana Vortex",
+      "description": "A swirling tempest of raw magical energy. Spells misfire, reality bends, and mana crystallizes in strange formations.",
+      "difficulty": [4, 5],
+      "rooms": 7,
+      "boss_id": "mana_lord",
+      "completion_reward": {
+        "gold": 1100,
+        "experience": 2000,
+        "items": ["Mana Core", "Spell Codex", "Crystallized Mana"]
+      },
+      "room_weights": {
+        "question": 40,
+        "battle": 20,
+        "chest": 15,
+        "trap_chest": 10,
+        "multi_choice": 10,
+        "empty": 5
+      }
+    },
+    {
+      "id": "void_nexus",
+      "name": "Void Nexus",
+      "description": "A convergence point between existence and non-existence. Ancient entities drift through the void, watching.",
+      "difficulty": [5, 6],
+      "rooms": 10,
+      "boss_id": "void_archon",
+      "completion_reward": {
+        "gold": 2000,
+        "experience": 3000,
+        "items": ["Void Shard", "Abyss Heart", "Reality Anchor"]
+      },
+      "room_weights": {
+        "question": 25,
+        "battle": 35,
+        "chest": 10,
+        "trap_chest": 20,
+        "multi_choice": 5,
+        "empty": 5
+      }
+    },
+    {
+      "id": "celestial_observatory",
+      "name": "Celestial Observatory",
+      "description": "An ancient structure floating among the stars where astronomers once channeled cosmic magic.",
+      "difficulty": [3, 4],
+      "rooms": 6,
+      "boss_id": "star_sentinel",
+      "completion_reward": {
+        "gold": 800,
+        "experience": 1400,
+        "items": ["Starlight Diadem", "Cosmic Compass", "Lunar Stone"]
+      },
+      "room_weights": {
+        "question": 45,
+        "battle": 15,
+        "chest": 15,
+        "trap_chest": 5,
+        "multi_choice": 15,
+        "empty": 5
+      }
+    },
+    {
+      "id": "arcane_rift",
+      "name": "Arcane Rift",
+      "description": "A tear in the fabric of magic itself. Spellcraft runs wild here, creating unpredictable phenomena.",
+      "difficulty": [4, 5],
+      "rooms": 8,
+      "boss_id": "rift_weaver",
+      "completion_reward": {
+        "gold": 1200,
+        "experience": 2200,
+        "items": ["Rift Staff", "Spellweaver's Grimoire", "Arcane Singularity"]
+      },
+      "room_weights": {
+        "question": 30,
+        "battle": 30,
+        "chest": 15,
+        "trap_chest": 15,
+        "multi_choice": 5,
+        "empty": 5
+      }
+    }
+  ],
+  "challenge_templates": {
+    "question": {
+      "types": [
+        {
+          "question": "What is the name of the magical force that binds all things?",
+          "answer": "ether",
+          "hints": ["It's the substance of magic itself", "Without it, no spell would function", "Ancient mages called it the lifeblood of reality"],
+          "time_limit": 60,
+          "success_reward": {
+            "gold": 100,
+            "experience": 150
+          },
+          "failure_damage": 20
+        },
+        {
+          "question": "How many planes of existence touch the Ethereal Spire?",
+          "answer": "seven",
+          "hints": ["It's a mystical number", "Related to the days of the week", "Seven and one make eight"],
+          "time_limit": 45,
+          "success_reward": {
+            "gold": 150,
+            "experience": 200
+          },
+          "failure_damage": 25
+        },
+        {
+          "question": "What color is pure, undiluted ether?",
+          "answer": "silver",
+          "hints": ["Like moonlight", "Metallic in appearance", "Reflects rather than absorbs"],
+          "time_limit": 50,
+          "success_reward": {
+            "gold": 120,
+            "experience": 180
+          },
+          "failure_damage": 22
+        },
+        {
+          "question": "Name the three pillars of arcane magic.",
+          "answer": "will intention manifestation",
+          "hints": ["Without willpower, spells fail", "You must intend your magic", "Reality bends to your manifestation"],
+          "time_limit": 60,
+          "success_reward": {
+            "gold": 200,
+            "experience": 250
+          },
+          "failure_damage": 30
+        },
+        {
+          "question": "What was the original name of the Void Nexus?",
+          "answer": "genesis point",
+          "hints": ["It was where magic began", "A new start", "Where all things originated"],
+          "time_limit": 55,
+          "success_reward": {
+            "gold": 175,
+            "experience": 220
+          },
+          "failure_damage": 28
+        }
+      ]
+    },
+    "selection": {
+      "types": [
+        {
+          "question": "You encounter a shimmering portal. Do you:",
+          "options": [
+            {
+              "text": "Step through cautiously",
+              "correct": true,
+              "reason": "The portal stabilizes and reveals safe passage. Your caution is rewarded.",
+              "reward": {"gold": 100, "experience": 150}
+            },
+            {
+              "text": "Attack it with full force",
+              "correct": false,
+              "reason": "The portal violently explodes, and you're caught in the magical backlash!",
+              "damage": 30
+            },
+            {
+              "text": "Run away",
+              "correct": false,
+              "reason": "The portal's energy lashes out at you as you flee.",
+              "damage": 20
+            }
+          ],
+          "time_limit": 30,
+          "success_reward": {"gold": 100, "experience": 150},
+          "failure_damage": 25
+        },
+        {
+          "question": "You find a crystal that hums with magical power. You:",
+          "options": [
+            {
+              "text": "Channel the crystal's energy carefully",
+              "correct": true,
+              "reason": "You absorb the crystal's essence, gaining strength and knowledge.",
+              "reward": {"gold": 150, "experience": 200}
+            },
+            {
+              "text": "Attempt to absorb it all at once",
+              "correct": false,
+              "reason": "The power overwhelms you, and you take damage from magical overload!",
+              "damage": 40
+            },
+            {
+              "text": "Leave it untouched",
+              "correct": false,
+              "reason": "As you walk away, the crystal explodes, and magical shrapnel strikes you.",
+              "damage": 25
+            }
+          ],
+          "time_limit": 35,
+          "success_reward": {"gold": 150, "experience": 200},
+          "failure_damage": 30
+        },
+        {
+          "question": "A voice offers you forbidden knowledge. You:",
+          "options": [
+            {
+              "text": "Politely decline and move forward",
+              "correct": true,
+              "reason": "Your wisdom protects you. The voice fades harmlessly.",
+              "reward": {"gold": 120, "experience": 180}
+            },
+            {
+              "text": "Accept the knowledge eagerly",
+              "correct": false,
+              "reason": "The forbidden knowledge corrupts your mind, causing severe magical backlash!",
+              "damage": 50
+            },
+            {
+              "text": "Try to trick the voice",
+              "correct": false,
+              "reason": "The entity sees through your deception and strikes back.",
+              "damage": 35
+            }
+          ],
+          "time_limit": 40,
+          "success_reward": {"gold": 120, "experience": 180},
+          "failure_damage": 35
+        }
+      ]
+    },
+    "trap": {
+      "types": [
+        {
+          "description": "A magical ward activates, filling the room with arcane energy!",
+          "base_damage": 35,
+          "difficulty": "normal",
+          "success_threshold": 10
+        },
+        {
+          "description": "Spectral guardians emerge from the walls, attacking with ethereal blades!",
+          "base_damage": 40,
+          "difficulty": "hard",
+          "success_threshold": 12
+        },
+        {
+          "description": "Reality itself tears apart around you, creating a void vortex!",
+          "base_damage": 50,
+          "difficulty": "nightmare",
+          "success_threshold": 14
+        }
+      ],
+      "difficulty_modifiers": {
+        "normal": {"threshold": 0, "failure_damage_multiplier": 1.0},
+        "hard": {"threshold": 2, "failure_damage_multiplier": 1.5},
+        "nightmare": {"threshold": 4, "failure_damage_multiplier": 2.0}
+      },
+      "success_reward": {"gold": 200, "experience": 300}
+    }
+  },
+  "chest_templates": {
+    "small": {
+      "name": "Ethereal Pouch",
+      "gold_range": [50, 100],
+      "item_count_range": [1, 1],
+      "experience": 150,
+      "item_rarity": ["common", "uncommon"]
+    },
+    "medium": {
+      "name": "Astral Chest",
+      "gold_range": [150, 300],
+      "item_count_range": [2, 3],
+      "experience": 300,
+      "item_rarity": ["uncommon", "rare"],
+      "guaranteed_legendary": 0
+    },
+    "large": {
+      "name": "Void Strongbox",
+      "gold_range": [400, 600],
+      "item_count_range": [3, 4],
+      "experience": 500,
+      "item_rarity": ["rare", "legendary"],
+      "guaranteed_legendary": 1
+    },
+    "legendary": {
+      "name": "Celestial Vault",
+      "gold_range": [800, 1200],
+      "item_count_range": [4, 5],
+      "experience": 800,
+      "item_rarity": ["legendary"],
+      "guaranteed_legendary": 2
+    }
+  }
+}
