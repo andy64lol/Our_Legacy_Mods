@@ -1,0 +1,19 @@
+{
+  "ethereal_guardian.boss.start": "The Ethereal Guardian materializes before you, their form flickering between physical and translucent states. 'You dare disturb the balance between worlds? I am the keeper of boundaries—your trespass ends here!'",
+  "ethereal_guardian.boss.defeat": "The Ethereal Guardian's form stabilizes one final time. 'Your will is strong... perhaps the boundaries need such strength.' They fade into pure ether, their essence dispersing.",
+
+  "astral_sovereign.boss.start": "The Astral Sovereign coalesces from raw magical energy, their body made of swirling cosmic patterns. 'WELCOME TO MY DOMAIN, MORTAL. HERE, I AM ABSOLUTE. YOUR REALITY HOLDS NO POWER!'",
+  "astral_sovereign.boss.defeat": "The Astral Sovereign's form destabilizes as you strike the final blow. 'Impossible... defeated in my own plane...' They scatter into stardust, their influence waning.",
+
+  "mana_lord.boss.start": "The Mana Lord towers before you, crackling with pure magical energy. Spells dance across their form in an endless loop. 'I AM THE EMBODIMENT OF MAGIC ITSELF! YOUR MORTAL POWER IS BUT A CANDLE AGAINST MY INFERNO!'",
+  "mana_lord.boss.defeat": "The Mana Lord's crystalline form shatters into countless fragments of pure mana. 'The flow... of magic... returns to the void...' Their power dissipates into the ambient magic around you.",
+
+  "void_archon.boss.start": "A presence emerges from absolute nothingness—the Void Archon, barely perceivable yet undeniably powerful. 'ZERO BECOMES ONE. NOTHING BECOMES EVERYTHING. YOU HAVE ENTERED THE SPACE BETWEEN EXISTENCE. SURRENDER TO THE VOID.'",
+  "void_archon.boss.defeat": "The Void Archon's form collapses inward, creating a moment of absolute silence. 'The void... recedes...' With a whisper that echoes through dimensions, they are unmade.",
+
+  "star_sentinel.boss.start": "The Star Sentinel descends from celestial heights, trailing stardust and cosmic light. 'GUARDIAN OF THE HEAVENS, I HAVE WATCHED CIVILIZATIONS RISE AND FALL. YOU WILL NOT LEAVE THIS PLACE UNCHANGED.'",
+  "star_sentinel.boss.defeat": "The Star Sentinel rises toward the heavens one final time. 'Your light shines brighter than even the stars. Go forth, worthy one.' They ascend into the cosmos, their vigil ended.",
+
+  "rift_weaver.boss.start": "The Rift Weaver emerges from tears in reality itself, their form constantly shifting. 'THE BOUNDARIES BETWEEN WORLDS ARE THREADS IN MY TAPESTRY. I WEAVE THE PATTERN OF ALL EXISTENCE. YOUR THREAD ENDS HERE!'",
+  "rift_weaver.boss.defeat": "The Rift Weaver's threads unravel as you destroy their core. 'The pattern... breaks... anew...' The tears in reality seal themselves as their power fades."
+}
