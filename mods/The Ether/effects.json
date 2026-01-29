@@ -1,0 +1,146 @@
+{
+   "wind_walker": {
+      "description": "Walk upon the wind, gaining increased speed and evasion",
+      "type": "mixed_effect",
+      "speed_bonus": 15,
+      "evasion_bonus": 20,
+      "duration": 8
+   },
+   "storm_cloud": {
+      "description": "A storm cloud that damages enemies over time with lightning",
+      "type": "damage_over_time",
+      "damage": 12,
+      "lightning_damage": 8,
+      "duration": 6,
+      "tick_rate": 1
+   },
+   "sky_shield": {
+      "description": "A protective barrier of sky energy that absorbs damage",
+      "type": "damage_absorb",
+      "absorb_amount": 60,
+      "duration": 6,
+      "defense_bonus": 10
+   },
+   "star_blessing": {
+      "description": "Blessing from the stars that increases all stats",
+      "type": "stat_boost",
+      "attack_bonus": 8,
+      "defense_bonus": 6,
+      "speed_bonus": 5,
+      "mp_bonus": 20,
+      "duration": 10
+   },
+   "tailwind": {
+      "description": "A tailwind that increases speed and grants temporary flight",
+      "type": "mixed_effect",
+      "speed_bonus": 12,
+      "evasion_bonus": 10,
+      "duration": 8
+   },
+   "cloud_form": {
+      "description": "Phase into cloud form, reducing physical damage and gaining levitation",
+      "type": "mixed_effect",
+      "damage_reduction": 0.35,
+      "evasion_bonus": 15,
+      "duration": 10
+   },
+   "storm_boost": {
+      "description": "Channel the power of the storm, greatly increasing lightning damage",
+      "type": "stat_boost",
+      "attack_bonus": 15,
+      "lightning_bonus": 25,
+      "speed_bonus": 5,
+      "duration": 15
+   },
+   "stardust_heal": {
+      "description": "Magical stardust that restores health and grants brief invulnerability",
+      "type": "healing",
+      "heal_amount": 100,
+      "invulnerability": 3,
+      "duration": 0
+   },
+   "thunder_charge": {
+      "description": "Build up thunder energy for a powerful attack",
+      "type": "stat_boost",
+      "attack_bonus": 20,
+      "lightning_bonus": 30,
+      "duration": 5
+   },
+   "lightning_shield": {
+      "description": "Surround yourself with a shield of lightning that damages attackers",
+      "type": "damage_reflection",
+      "reflection_amount": 0.3,
+      "lightning_damage": 10,
+      "duration": 8
+   },
+   "wind_fury": {
+      "description": "Enter a fury of wind, increasing attack speed and critical chance",
+      "type": "mixed_effect",
+      "speed_bonus": 10,
+      "critical_chance": 0.1,
+      "duration": 6
+   },
+   "star_guidance": {
+      "description": "The stars guide your attacks, increasing accuracy and critical damage",
+      "type": "mixed_effect",
+      "accuracy_bonus": 20,
+      "critical_damage_bonus": 0.2,
+      "duration": 10
+   },
+   "storm_witness": {
+      "description": "Witness the storm's power, gaining resistance to lightning",
+      "type": "damage_reduction",
+      "lightning_damage_reduction": 0.5,
+      "duration": 12
+   },
+   "aerial_advantage": {
+      "description": "Gain the advantage of flight, ignoring terrain penalties",
+      "type": "mixed_effect",
+      "speed_bonus": 8,
+      "evasion_bonus": 10,
+      "terrain_immunity": true,
+      "duration": 8
+   },
+   "nebula_embrace": {
+      "description": "Embrace the nebula's power, restoring MP over time",
+      "type": "mp_over_time",
+      "mp_amount": 8,
+      "duration": 8,
+      "tick_rate": 1
+   },
+   "comet_fury": {
+      "description": "Channel comet energy for devastating fire and lightning attacks",
+      "type": "mixed_effect",
+      "attack_bonus": 12,
+      "fire_bonus": 15,
+      "lightning_bonus": 15,
+      "duration": 8
+   },
+   "pressure_wave": {
+      "description": "Manipulate air pressure to weaken enemies",
+      "type": "stat_reduction",
+      "defense_penalty": 8,
+      "speed_penalty": 6,
+      "duration": 6
+   },
+   "celestial_guardian": {
+      "description": "Call upon celestial beings to protect you",
+      "type": "damage_absorb",
+      "absorb_amount": 80,
+      "defense_bonus": 12,
+      "duration": 10
+   },
+   "wind_barrier": {
+      "description": "Create a barrier of wind that blocks projectiles",
+      "type": "projectile_immunity",
+      "duration": 6
+   },
+   "storm_surge": {
+      "description": "Surge with storm energy, increasing all damage output",
+      "type": "stat_boost",
+      "attack_bonus": 10,
+      "magic_bonus": 10,
+      "duration": 8
+   }
+}
+
