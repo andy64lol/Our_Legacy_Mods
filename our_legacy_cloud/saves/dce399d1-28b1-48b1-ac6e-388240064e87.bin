@@ -1,0 +1,111 @@
+{
+  "player": {
+    "name": "andy",
+    "uuid": "7582a540-9e37-4f7e-a031-702bcbb93f1b",
+    "character_class": "Bard",
+    "level": 100001,
+    "experience": 7649,
+    "experience_to_next": 19381,
+    "max_hp": 70000000000,
+    "hp": 70000000000,
+    "max_mp": 60000000000025,
+    "mp": 60000000000025,
+    "attack": 73,
+    "defense": 9,
+    "speed": 13,
+    "inventory": [
+      "Enchanting Lute",
+      "Steel Dagger",
+      "Colourful Cloth Robe",
+      "Mana Potion",
+      "Leather Strip",
+      "Leather Strip",
+      "Leather Strip",
+      "Leather Strip",
+      "Dagger",
+      "Dagger",
+      "Crystal Shard",
+      "Crystal Shard",
+      "Orc Tooth",
+      "Orc Tooth",
+      "Orc Tooth",
+      "Bone Fragment",
+      "Bone Fragment",
+      "Bone Fragment",
+      "Dagger",
+      "Dagger",
+      "Steel Ingot",
+      "Steel Ingot",
+      "Hardwood",
+      "Hardwood",
+      "Hardwood",
+      "Mana Herb",
+      "Iron Axe",
+      "Health Potion",
+      "Bone Fragment"
+    ],
+    "gold": 14390,
+    "equipment": {
+      "weapon": "Enchanting Lute",
+      "armor": "Colourful Cloth Robe",
+      "offhand": null,
+      "accessory_1": null,
+      "accessory_2": null,
+      "accessory_3": null
+    },
+    "companions": [],
+    "base_stats": {
+      "base_max_hp": 70000000000,
+      "base_max_mp": 60000000000000,
+      "base_attack": 11,
+      "base_defense": 7,
+      "base_speed": 13
+    },
+    "class_data": {
+      "description": "A musician who uses their song to inspire allies and weaken enemies",
+      "base_stats": {
+        "hp": 70,
+        "mp": 60,
+        "attack": 11,
+        "defense": 7,
+        "speed": 13
+      },
+      "level_up_bonuses": {
+        "hp": 12,
+        "mp": 8,
+        "attack": 2,
+        "defense": 1,
+        "speed": 2
+      },
+      "starting_items": [
+        "Enchanting Lute",
+        "Steel Dagger",
+        "Colourful Cloth Robe",
+        "Mana Potion"
+      ],
+      "starting_gold": 300
+    },
+    "rank": "SSR tier adventurer",
+    "active_buffs": [],
+    "housing_owned": [
+      "small_tent"
+    ],
+    "comfort_points": 20,
+    "building_slots": {
+      "house_1": "small_tent"
+    },
+    "farm_plots": {
+      "farm_1": [],
+      "farm_2": []
+    }
+  },
+  "current_area": "your_land",
+  "visited_areas": [],
+  "mission_progress": {},
+  "completed_missions": [],
+  "save_version": "3.0",
+  "save_time": "2026-02-08T22:48:46.806165",
+  "bosses_killed": {
+    "Orc Chieftain": "2026-02-06T21:41:28.438033"
+  }
+}
